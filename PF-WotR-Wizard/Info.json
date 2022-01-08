@@ -1,0 +1,9 @@
+{
+  "Id": "PF-WotR-Wizard",
+  "DisplayName": "Classes Wizard for Pathfinder WotR",
+  "Author": "gbeine",
+  "Version": "0.0.1",
+  "AssemblyName": "PF-WotR-Wizard.dll",
+  "EntryMethod": "PF_WotR_Wizard.Main.Load",
+  "HomePage": "https://github.com/gbeine/PF-ClassesWizard"
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PF-WotR-Wizard", "PF-WotR-Wizard\PF-WotR-Wizard.csproj", "{73BE1579-95D3-4B0C-80CA-C4FEE1C46FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PF-WotR-Core", "PF-WotR-Core\PF-WotR-Core.csproj", "{48C9BFAD-D44C-49F1-BABD-293C9FD6F2F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PF-WotR-ModKit", "PF-WotR-ModKit\PF-WotR-ModKit.csproj", "{0A6992CF-A68B-40CD-BCB3-F2E1B83FF5F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PF-WotR-Classes", "PF-WotR-Classes\PF-WotR-Classes.csproj", "{94A95955-3A7B-4727-BEAF-30306D3151FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73BE1579-95D3-4B0C-80CA-C4FEE1C46FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BE1579-95D3-4B0C-80CA-C4FEE1C46FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BE1579-95D3-4B0C-80CA-C4FEE1C46FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BE1579-95D3-4B0C-80CA-C4FEE1C46FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C9BFAD-D44C-49F1-BABD-293C9FD6F2F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C9BFAD-D44C-49F1-BABD-293C9FD6F2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C9BFAD-D44C-49F1-BABD-293C9FD6F2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C9BFAD-D44C-49F1-BABD-293C9FD6F2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A6992CF-A68B-40CD-BCB3-F2E1B83FF5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6992CF-A68B-40CD-BCB3-F2E1B83FF5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6992CF-A68B-40CD-BCB3-F2E1B83FF5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6992CF-A68B-40CD-BCB3-F2E1B83FF5F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A95955-3A7B-4727-BEAF-30306D3151FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A95955-3A7B-4727-BEAF-30306D3151FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A95955-3A7B-4727-BEAF-30306D3151FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A95955-3A7B-4727-BEAF-30306D3151FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

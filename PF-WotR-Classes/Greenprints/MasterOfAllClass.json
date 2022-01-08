@@ -1,0 +1,387 @@
+{
+  "Icon": "ref:INQUISITOR",
+  "DisplayName": "Meister",
+  "Description": "Meister sind Hans Dampf in allen Gassen. Im wahrsten Sinne des Wortes. Sie sind vielseitig und können nahezu alles.",
+  "Difficulty": 3,
+  "SignatureAbilities": [
+    "ref:INQUISITOR_SOLO_TACTICIAN",
+    "ref:ROGUE_TALENTS",
+    "ref:SLAYER_TALENTS"
+  ],
+  "StartingItems": "ref:INQUISITOR",
+  "EquipmentEntities": "ref:INQUISITOR",
+  "MaleEquipmentEntities": "ref:INQUISITOR",
+  "FemaleEquipmentEntities": "ref:INQUISITOR",
+  "PrimaryColor": 68,
+  "SecondaryColor": 61,
+  "SkillPoints": 5,
+  "HitDie": "D8",
+  "BaseAttackBonus": "ref:BAB_MEDIUM",
+  "FortitudeSave": "ref:SAVES_LOW",
+  "WillSave": "ref:SAVES_HIGH",
+  "ReflexSave": "ref:SAVES_HIGH",
+  "StartingGold": 411,
+  "IsDivineCaster": false,
+  "IsArcaneCaster": false,
+  "ClassSkills": [
+    "SkillMobility",
+    "SkillAthletics",
+    "SkillPersuasion",
+    "SkillThievery",
+    "SkillLoreNature",
+    "SkillPerception",
+    "SkillStealth",
+    "SkillUseMagicDevice",
+    "SkillLoreReligion",
+    "SkillKnowledgeWorld",
+    "SkillKnowledgeArcana"
+  ],
+  "RecommendedAttributes": [
+    "Charisma",
+    "Intelligence"
+  ],
+  "NotRecommendedAttributes": [
+  ],
+  "Progression": {
+    "UiDeterminatorsGroup": [
+      "ref:INQUISITOR_PROFICIENCIES",
+      "ref:COMMON_DETECT_MAGIC",
+      "ref:ROGUE_TRAPFINDING",
+      "ref:BARD_BARDIC_KNOWLEDGE",
+      "ref:INQUISITOR_ORISONS_FEATURE",
+      "ref:COMMON_DEITY_SELECTION",
+      "ref:COMMON_DOMAINS_SELECTION",
+      "ref:ANIMAL_COMPANION_FEATURE_DOG",
+      "ref:WITCH_FAMILIAR_SELECTION",
+      "ref:WITCH_CANTRIPS_FEATURE"
+    ],
+    "UiGroups": [
+      [
+        "ref:COMMON_SNEAK_ATTACK",
+        "ref:ROGUE_MASTER_STRIKE"
+      ],
+      [
+        "ref:COMMON_EVASION",
+        "ref:COMMON_UNCANNY_DODGE",
+        "ref:COMMON_IMPROVED_UNCANNY_DODGE",
+        "ref:COMMON_ADVANCED_TALENTS"
+      ],
+      [
+        "ref:INQUISITOR_SOLO_TACTICS",
+        "ref:INQUISITOR_STALWART",
+        "ref:INQUISITOR_CUNNING_INITIATIVE",
+        "ref:INQUISITOR_STERN_GAZE",
+        "ref:INQUISITOR_BANE_NORMAL_FEATURE_ADD",
+        "ref:INQUISITOR_BANE_GREATER_FEATURE"
+      ],
+      [
+        "ref:WEAPON_FINESSE",
+        "ref:ROGUE_FINESSE_TRAINING_SELECTION"
+      ],
+      [
+        "ref:INQUISITOR_SANCTIFIED_SLAYER_STUDIED_TARGET",
+        "ref:INQUISITOR_SANCTIFIED_SLAYER_TALENTED_SLAYER",
+        "ref:SLAYER_STYGIAN_SLAYER_INVISIBILITY",
+        "ref:SLAYER_STYGIAN_SLAYER_SHADOWY_MIST_FORM"
+      ],
+      [
+        "ref:WITCH_OF_THE_VEIL_SECRECY",
+        "ref:WITCH_OF_THE_VEIL_SHROUDED_STEP"
+      ],
+      [
+        "ref:INQUISITOR_SACRED_HUNTSMASTER_TACTICS",
+        "ref:HUNTER_URBAN_HUNTER_ANIMAL_INSIGHT",
+        "ref:WITCH_MAJOR_HEX",
+        "ref:WITCH_GRAND_HEX"
+      ]
+    ],
+    "LevelEntries": {
+      "1": [
+        "ref:BARD_BARDIC_KNOWLEDGE",
+        "ref:COMMON_SNEAK_ATTACK",
+        "ref:INQUISITOR_PROFICIENCIES",
+        "ref:WEAPON_FINESSE",
+        "ref:ROGUE_TRAPFINDING",
+        "ref:INQUISITOR_STERN_GAZE"
+      ],
+      "2": [
+        "ref:COMMON_EVASION",
+        "ref:ROGUE_TALENT_SELECTION",
+        "ref:INQUISITOR_CUNNING_INITIATIVE"
+      ],
+      "3": [
+        "ref:COMMON_SNEAK_ATTACK",
+        "ref:ROGUE_FINESSE_TRAINING_SELECTION",
+        "ref:ROGUE_DANGER_SENSE_ROGUE",
+        "ref:INQUISITOR_SOLO_TACTICS",
+        "ref:INQUISITOR_TEAMWORK_FEAT",
+        "ref:COMMON_SKILL_FOCUS"
+      ],
+      "4": [
+        "ref:ROGUE_TALENT_SELECTION",
+        "ref:COMMON_UNCANNY_DODGE"
+      ],
+      "5": [
+        "ref:COMMON_SNEAK_ATTACK"
+      ],
+      "6": [
+        "ref:ROGUE_TALENT_SELECTION",
+        "ref:ROGUE_DANGER_SENSE_ROGUE",
+        "ref:INQUISITOR_TEAMWORK_FEAT"
+      ],
+      "7": [
+        "ref:COMMON_SNEAK_ATTACK",
+        "ref:ROGUE_FINESSE_TRAINING_SELECTION",
+        "ref:COMMON_SKILL_FOCUS"
+      ],
+      "8": [
+        "ref:ROGUE_TALENT_SELECTION",
+        "ref:COMMON_IMPROVED_UNCANNY_DODGE"
+      ],
+      "9": [
+        "ref:COMMON_SNEAK_ATTACK",
+        "ref:ROGUE_DANGER_SENSE_ROGUE",
+        "ref:INQUISITOR_TEAMWORK_FEAT"
+      ],
+      "10": [
+        "ref:ROGUE_TALENT_SELECTION",
+        "ref:COMMON_ADVANCED_TALENTS"
+      ],
+      "11": [
+        "ref:COMMON_SNEAK_ATTACK",
+        "ref:ROGUE_FINESSE_TRAINING_SELECTION",
+        "ref:INQUISITOR_STALWART",
+        "ref:COMMON_SKILL_FOCUS"
+      ],
+      "12": [
+        "ref:ROGUE_TALENT_SELECTION",
+        "ref:ROGUE_DANGER_SENSE_ROGUE",
+        "ref:INQUISITOR_TEAMWORK_FEAT"
+      ],
+      "13": [
+        "ref:COMMON_SNEAK_ATTACK"
+      ],
+      "14": [
+        "ref:ROGUE_TALENT_SELECTION"
+      ],
+      "15": [
+        "ref:COMMON_SNEAK_ATTACK",
+        "ref:ROGUE_DANGER_SENSE_ROGUE",
+        "ref:INQUISITOR_TEAMWORK_FEAT",
+        "ref:COMMON_SKILL_FOCUS"
+      ],
+      "16": [
+        "ref:ROGUE_TALENT_SELECTION"
+      ],
+      "17": [
+        "ref:COMMON_SNEAK_ATTACK"
+      ],
+      "18": [
+        "ref:ROGUE_TALENT_SELECTION",
+        "ref:ROGUE_DANGER_SENSE_ROGUE",
+        "ref:INQUISITOR_TEAMWORK_FEAT"
+      ],
+      "19": [
+        "ref:COMMON_SNEAK_ATTACK"
+      ],
+      "20": [
+        "ref:ROGUE_TALENT_SELECTION",
+        "ref:ROGUE_MASTER_STRIKE"
+      ]
+    },
+    "DisplayName": "",
+    "Description": "",
+    "FeatureGroups": [],
+    "HideInUI": false, 
+    "IsClassFeature": false,
+    "ReapplyOnLevelUp": false,
+    "Guid": "4b81e172bc03474885a1f696d829a0c0",
+    "Name": "MasterOfAllProgression"
+  },
+  "Spellbook": null,
+  "ComponentsArray": [
+    {
+      "Type": "PrerequisiteIsPet",
+      "Values": {
+        "HideInUI": true,
+        "Group": "All",
+        "Not": true
+      }
+    }
+  ],
+  "Archetypes": [
+    { 
+      "DisplayName": "Gefallener Meister",
+      "Description": "Gefallene Meister sind Inquisitoren oder Attentäter, deren Glaube enttäuscht wurde. Sie suchen nach Orientierung in der Welt und gelangen dabei nicht selten auf Abwege.",
+      "IsDivineCaster": true,
+      "SpellbookFrom": "ref:INQUISITOR",
+      "ComponentsArray": [
+        {
+          "Type": "PrerequisiteNoFeature",
+          "Values": {
+            "Group": "All",
+            "Feature": "ref:DEITY_ATHEISM"
+          }
+        },
+        {
+          "Type": "PrerequisiteAlignment",
+          "Values": {
+            "Group": "All",
+            "Alignment": [
+              "Evil"
+            ]
+          }
+        },
+        {
+          "Type": "DeityDependencyClass",
+          "Values": {
+            "IsDeityDependencyClass": true
+          }
+        }
+      ],
+      "AddFeatures": {
+        "1": [
+          "ref:INQUISITOR_ORISONS_FEATURE",
+          "ref:COMMON_DOMAINS_SELECTION",
+          "ref:INQUISITOR_SANCTIFIED_SLAYER_STUDIED_TARGET",
+          "ref:COMMON_RAY_CALCULATE_FEATURE",
+          "ref:COMMON_TOUCH_CALCULATE_FEATURE",
+          "ref:COMMON_DETECT_MAGIC"
+        ],
+        "4": [
+          "ref:SLAYER_STYGIAN_SLAYER_INVISIBILITY"
+        ],
+        "5": [
+          "ref:INQUISITOR_BANE_NORMAL_FEATURE_ADD"
+        ],
+        "8": [
+          "ref:INQUISITOR_SANCTIFIED_SLAYER_TALENTED_SLAYER"
+        ],
+        "10": [
+          "ref:SLAYER_STYGIAN_SLAYER_SHADOWY_MIST_FORM"
+        ],
+        "12": [
+          "ref:INQUISITOR_BANE_GREATER_FEATURE"
+        ],
+        "14": [
+          "ref:INQUISITOR_SANCTIFIED_SLAYER_TALENTED_SLAYER"
+        ],
+        "17": [
+          "ref:INQUISITOR_SANCTIFIED_SLAYER_TALENTED_SLAYER"
+        ],
+        "20": [
+          "ref:INQUISITOR_SANCTIFIED_SLAYER_TALENTED_SLAYER"
+        ]
+      },
+      "RemoveFeatures": {
+        "3": [
+          "ref:COMMON_SKILL_FOCUS"
+        ],
+        "7": [
+          "ref:COMMON_SKILL_FOCUS"
+        ],
+        "11": [
+          "ref:COMMON_SKILL_FOCUS"
+        ],
+        "15": [
+          "ref:COMMON_SKILL_FOCUS"
+        ]
+      },
+      "Guid": "06091f97f41e4a1abc0829d23fafad28",
+      "Name": "DivineMasterOfAllArchetype"
+    },
+    {
+      "DisplayName": "Scharlatan",
+      "Description": "Der Scharlatan ist ein lustiger Geselle, der sich mit ein paar Tricks und ein bisschen Magie durchs Leben schlägt. Nur sehr selten muss ein Scharlatan zu den Waffen greifen, in den meisten Fällen schafft er es, sich durch Illusion oder Überredung aus Schwierigkeiten herauszuwinden.",
+      "IsArcaneCaster": true,
+      "Spellbook": {
+        "From": "dd04f9239f655ea438976742728e4909",
+        "IsSpontaneous": true,
+        "Guid": "c766e71871004a1dab43290921dc2820",
+        "DisplayName": "Scharlatan",
+        "Name": "CharlatanSpellbook"
+      },
+      "ComponentsArray": [
+        {
+          "Type": "PrerequisiteAlignment",
+          "Values": {
+            "Group": "All",
+            "Alignment": [
+              "Good"
+            ]
+          }
+        }
+      ],
+      "AddFeatures": {
+        "1": [
+          "ref:ANIMAL_COMPANION_FEATURE_DOG",
+          "ref:COMMON_RAY_CALCULATE_FEATURE",
+          "ref:WITCH_FAMILIAR_SELECTION",
+          "ref:WITCH_HEX_SELECTION",
+          "ref:WITCH_CANTRIPS_FEATURE",
+          "ref:WITCH_OF_THE_VEIL_SECRECY"
+        ],
+        "2": [
+          "ref:WITCH_HEX_SELECTION",
+          "ref:WITCH_OF_THE_VEIL_SHROUDED_STEP"
+        ],
+        "3": [
+          "ref:INQUISITOR_SACRED_HUNTSMASTER_TACTICS"
+        ],
+        "4": [
+          "ref:WITCH_HEX_SELECTION"
+        ],
+        "5": [
+          "ref:HUNTER_URBAN_HUNTER_ANIMAL_INSIGHT"
+        ],
+        "6": [
+          "ref:WITCH_HEX_SELECTION"
+        ],
+        "8": [
+          "ref:WITCH_HEX_SELECTION",
+          "ref:WITCH_OF_THE_VEIL_SHROUDED_STEP"
+        ],
+        "10": [
+          "ref:WITCH_HEX_SELECTION",
+          "ref:WITCH_MAJOR_HEX"
+        ],
+        "12": [
+          "ref:WITCH_HEX_SELECTION"
+        ],
+        "14": [
+          "ref:WITCH_HEX_SELECTION"
+        ],
+        "16": [
+          "ref:WITCH_HEX_SELECTION",
+          "ref:WITCH_OF_THE_VEIL_SHROUDED_STEP",
+          "ref:WITCH_OF_THE_VEIL_SHROUDED_STEP16"
+        ],
+        "18": [
+          "ref:WITCH_HEX_SELECTION",
+          "ref:WITCH_GRAND_HEX"
+        ],
+        "20": [
+          "ref:WITCH_HEX_SELECTION"
+        ]
+      },
+      "RemoveFeatures": {
+        "3": [
+          "ref:COMMON_SKILL_FOCUS"
+        ],
+        "7": [
+          "ref:COMMON_SKILL_FOCUS"
+        ],
+        "11": [
+          "ref:COMMON_SKILL_FOCUS"
+        ],
+        "15": [
+          "ref:COMMON_SKILL_FOCUS"
+        ]
+      },
+      "Guid": "d1258558bd534eb4a98cb506074d9c11",
+      "Name": "CharlatanArchetype"
+    }
+  ],
+  "Guid": "a5205097536742f4aee1cc83d0118993",
+  "Name": "MasterOfAllClass"
+}
