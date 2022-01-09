@@ -96,8 +96,8 @@ namespace PF_WotR_Core.Identifier
         public const string COMMON_FAVORITE_ENEMY_RANK_UP                                       = "c1be13839472aad46b152cf10cf46179"; // Erzfeind
         public const string COMMON_BLOODLINE_SELECTION                                          = "24bef8d1bee12274686f6da6ccbc8914"; // Blutlinie
         public const string COMMON_DEBILITATING_INJURY                                          = "def114eb566dfca448e998969bf51586"; // Schwächende Verletzung
-
-        public const string IMPROVED_INITIATIVE = "797f25d709f559546b29e7bcb181cc74"; // Verbesserte Initiative
+        public const string COMMON_FAST_LEARNER                                                 = "7ad59ca648c14c0a92adec798d51eb6d"; // Schneller Schüler
+        public const string COMMON_IMPROVED_INITIATIVE                                          = "797f25d709f559546b29e7bcb181cc74"; // Verbesserte Initiative
 
         public const string CONSTRUCT_TYPE = "fd389783027d63343b4a5634bd81645f"; //
         public const string UNDEAD_TYPE = "734a29b693e9ec346ba2951b27987e33"; //

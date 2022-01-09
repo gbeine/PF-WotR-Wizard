@@ -22,6 +22,12 @@ namespace PF_WotR_Wizard
         [HarmonyPriority(Priority.First)]
         public static void Postfix()
         {
+            Load();
+            Main.Loaded();
+        }
+
+        public static void Load()
+        {
             Mod.Log($"Loading from {greenprintsDirectory}");
             if (Directory.Exists(greenprintsDirectory))
             {

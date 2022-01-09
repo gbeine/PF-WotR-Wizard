@@ -13,7 +13,6 @@ namespace PF_WotR_Core.JsonTypes
         {
             string guid = Spellbooks.INSTANCE.GetReferenceNameFor(blueprintSpellbook);
             From = guid;
-            Icon = guid;
 
             DisplayName = blueprintSpellbook.DisplayName;
             CharacterClass = CharacterClasses.INSTANCE.GetReferenceNameFor(blueprintSpellbook.CharacterClass);
@@ -32,11 +31,12 @@ namespace PF_WotR_Core.JsonTypes
                 SpellsKnown = new SpellsTable(blueprintSpellbook.SpellsKnown);
             if (blueprintSpellbook.SpellsPerDay != null)
                 SpellsPerDay = new SpellsTable(blueprintSpellbook.SpellsPerDay);
+            if (blueprintSpellbook.SpellSlots != null)
+                SpellSlots = new SpellsTable(blueprintSpellbook.SpellSlots);
         }
 
         public Spellbook(JObject jObject) : base(jObject)
         {
-            Icon = SelectString(jObject, "Icon");
             From = SelectString(jObject, "From");
 
             DisplayName = SelectString(jObject, "DisplayName");
@@ -53,6 +53,7 @@ namespace PF_WotR_Core.JsonTypes
             
             SpellsKnownFrom = SelectString(jObject, "SpellsKnownFrom");
             SpellsPerDayFrom = SelectString(jObject, "SpellsPerDayFrom");
+            SpellSlotsFrom = SelectString(jObject, "SpellsSlotsFrom");
             SpellListFrom = SelectString(jObject, "SpellListFrom");
 
             JToken jSpellsKnown = jObject.SelectToken("SpellsKnown");
@@ -61,6 +62,9 @@ namespace PF_WotR_Core.JsonTypes
             JToken jSpellsPerDay = jObject.SelectToken("SpellsPerDay");
             if (jSpellsPerDay != null)
                 SpellsPerDay = new SpellsTable(jSpellsPerDay.Value<JObject>());
+            JToken jSpellSlots = jObject.SelectToken("SpellSlots");
+            if (jSpellSlots != null)
+                SpellList = new SpellList(jSpellSlots.Value<JObject>());
             JToken jSpellList = jObject.SelectToken("SpellList");
             if (jSpellList != null)
                 SpellList = new SpellList(jSpellList.Value<JObject>());
@@ -68,8 +72,6 @@ namespace PF_WotR_Core.JsonTypes
 
         [JsonProperty("From")]
         public string From { get; }
-        [JsonProperty("Icon")]
-        public string Icon { get; }
         [JsonProperty("DisplayName")]
         public string DisplayName { get; }
         [JsonProperty("CharacterClass")]
@@ -96,14 +98,15 @@ namespace PF_WotR_Core.JsonTypes
         public string SpellsKnownFrom { get; private set; }
         [JsonProperty("SpellsPerDayFrom")]
         public string SpellsPerDayFrom { get; private set; }
-        public bool HasSpellListDefinition { get { return SpellList != null; } }
-        public bool HasSpellsPerDayDefinition { get { return SpellsPerDay != null; } }
-        public bool HasSpellsKnownDefinition { get { return SpellsKnown != null; } }
+        [JsonProperty("SpellSlotsFrom")]
+        public string SpellSlotsFrom { get; private set; }
         [JsonProperty("SpellList")]
         public SpellList SpellList { get; private set; }
         [JsonProperty("SpellsKnown")]
         public SpellsTable SpellsKnown { get; private set; }
         [JsonProperty("SpellsPerDay")]
         public SpellsTable SpellsPerDay { get; private set; }
+        [JsonProperty("SpellSlots")]
+        public SpellsTable SpellSlots { get; private set; }
     }
 }

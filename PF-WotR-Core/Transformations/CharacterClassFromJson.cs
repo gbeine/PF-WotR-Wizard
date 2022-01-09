@@ -32,7 +32,7 @@ namespace PF_WotR_Core.Transformations
                 characterClass = _classFactory.CreateClass(
                     characterClassData.Name,  characterClassData.Guid);
             
-            // characterClass.m_Icon = SpriteLookup.lookupFor(characterClassData.Icon);
+            characterClass.m_Icon = SpriteRepository.Get(characterClassData.Icon);
 
             if (!string.Empty.Equals(characterClassData.DisplayName))
                 characterClass.LocalizedName = _localizationFactory.CreateString(

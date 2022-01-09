@@ -1,5 +1,7 @@
 using System;
 using Kingmaker.Blueprints.Classes;
+using Kingmaker.Blueprints.Classes.Spells;
+using Kingmaker.UnitLogic.Abilities.Blueprints;
 using PF_WotR_ModKit.Utility;
 
 namespace PF_WotR_Core.Identifier
@@ -25,10 +27,10 @@ namespace PF_WotR_Core.Identifier
         internal string lookupStatProgression(string value) => performLookup(StatProgession.INSTANCE, value);
 
         internal bool existsCharacterClass(string value) => performExists(CharacterClasses.INSTANCE, value, typeof(BlueprintCharacterClass));
-        // internal bool existsFeature(string value) => performExists(Features.INSTANCE, value, typeof(BlueprintFeature));
+        internal bool existsFeature(string value) => performExists(Features.INSTANCE, value, typeof(BlueprintFeature));
         // internal bool existsProgression(string value) => performExists(Progressions.INSTANCE, value, typeof(BlueprintProgression));
-        // internal bool existsSpell(string value) => performExists(Abilities.INSTANCE, value,typeof(BlueprintAbility));
-        // internal bool existsSpellbook(string value) => performExists(Spellbooks.INSTANCE, value, typeof(BlueprintSpellbook));
+        internal bool existsSpell(string value) => performExists(Abilities.INSTANCE, value,typeof(BlueprintAbility));
+        internal bool existsSpellbook(string value) => performExists(Spellbooks.INSTANCE, value, typeof(BlueprintSpellbook));
 
         private string performLookup(Identifier identifierInstance, string value)
         {

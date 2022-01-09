@@ -35,17 +35,17 @@ namespace PF_WotR_Core.Extensions
             blueprintSpellbook_set_CharacterClass(blueprintSpellbook, characterClass.ToReference<BlueprintCharacterClassReference>());
         }
 
-        internal static void SetSpellList(this BlueprintSpellbook blueprintSpellbook, BlueprintSpellList spellList)
+        public static void SetSpellList(this BlueprintSpellbook blueprintSpellbook, BlueprintSpellList spellList)
         {
             blueprintSpellbook_set_SpellList(blueprintSpellbook, spellList.ToReference<BlueprintSpellListReference>());
         }
 
-        internal static void SetSpellsPerDay(this BlueprintSpellbook blueprintSpellbook, BlueprintSpellsTable spellsPerDay)
+        public static void SetSpellsPerDay(this BlueprintSpellbook blueprintSpellbook, BlueprintSpellsTable spellsPerDay)
         {
             blueprintSpellbook_set_SpellsPerDay(blueprintSpellbook, spellsPerDay.ToReference<BlueprintSpellsTableReference>());
         }
 
-        internal static void SetSpellsKnown(this BlueprintSpellbook blueprintSpellbook, BlueprintSpellsTable spellsKnown)
+        public static void SetSpellsKnown(this BlueprintSpellbook blueprintSpellbook, BlueprintSpellsTable spellsKnown)
         {
             blueprintSpellbook_set_SpellsKnown(blueprintSpellbook, spellsKnown.ToReference<BlueprintSpellsTableReference>());
         }

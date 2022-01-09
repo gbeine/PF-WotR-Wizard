@@ -7,7 +7,7 @@ namespace PF_WotR_Core.Identifier
         private Spellbooks() { }
 
         public const string ALCHEMIST_SPELLBOOK                                    = "027d37761f3804042afa96fe3e9086cc"; // Alchemist
-        
+        public const string ARCANIST_SPELLBOOK                                     = "33903fe5c4abeaa45bc249adb9d98848"; // Arkanist
         public const string BARD_SPELLBOOK                                         = "bc04fc157a8801d41b877ad0d9af03dd"; // Barde
         public const string CLERIC_SPELLBOOK                                       = "4673d19a0cf2fab4f885cc4d1353da33"; // Kleriker
         public const string CLERIC_CRUSADER_SPELLBOOK                              = "673d39f7da699aa408cdda6282e7dcc0"; // Kleriker
@@ -23,6 +23,7 @@ namespace PF_WotR_Core.Identifier
         public const string SORCERER_SPELLBOOK                                     = "b3db3766a4b605040b366265e2af0e50"; // Hexenmeister
         public const string SORCERER_EMPYREAL_SORCERER_SPELLBOOK                   = "cb9d75e5cb08572439a6b5cd562297a5"; // Hexenmeister
         public const string SORCERER_SAGE_SORCERER_SPELLBOOK                       = "cc2052732997b654e93eac268a39a0a9"; // Hexenmeister
+        public const string WITCH_SPELLBOOK                                        = "dd04f9239f655ea438976742728e4909"; // Hexe
         public const string WIZARD_SPELLBOOK                                       = "5a38c9ac8607890409fcb8f6342da6f4"; // Magier
         public const string WIZARD_THASSILONIAN_SPECIALIST_ABJURATION_SPELLBOOK    = "58b15cc36ceda8942a7a29aafa755452"; // Magier
         public const string WIZARD_THASSILONIAN_SPECIALIST_CONJURATION_SPELLBOOK   = "cbc30bcc7b8adec48a53a6540f5596ae"; // Magier

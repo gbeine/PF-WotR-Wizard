@@ -18,7 +18,6 @@ namespace PF_WotR_Core.Facades
 
         public static T Create<T>(string name, string guid) where T : SimpleBlueprint, new()
         {
-            
             BlueprintGuid assetId = new BlueprintGuid(new Guid(guid));
             T asset = new T()
             {
