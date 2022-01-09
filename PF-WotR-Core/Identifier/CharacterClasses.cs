@@ -7,6 +7,7 @@ namespace PF_WotR_Core.Identifier
         private CharacterClasses() { }
 
         public const string ALCHEMIST  = "0937bec61c0dabc468428f496580c721";
+        public const string ARCANIST   = "52dbfd8505e22f84fad8d702611f60b7";
         public const string BARBARIAN  = "f7d7eb166b3dd594fb330d085df41853";
         public const string BARD       = "772c83a25e2268e448e841dcd548235f";
         public const string CLERIC     = "67819271767a9dd4fbfd4ae700befea0";

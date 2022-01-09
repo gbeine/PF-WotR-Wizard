@@ -101,9 +101,9 @@ namespace PF_WotR_Core.JsonTypes
             ComponentsFrom = SelectString(jObject, "ComponentsFrom");
 
             JToken jComponents = jObject.SelectToken("ComponentsArray");
+            ComponentsArray = new List<Component>();
             if (jComponents?.Value<JArray>() != null)
             {
-                ComponentsArray = new List<Component>();
                 foreach (var jComponent in jComponents.Value<JArray>())
                 {
                     ComponentsArray.Add(new Component(jComponent.Value<JObject>()));

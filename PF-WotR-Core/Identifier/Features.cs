@@ -162,6 +162,8 @@ namespace PF_WotR_Core.Identifier
         public const string MERCY_STAGGERED  = "19250e5a12db1fc448970b81e0f38922"; // Gnade – Wankend
         public const string MERCY_STUNNED    = "7775c915661f8fb449c38dd873524389"; // Gnade – Betäubt
 
+            
+        public const string ANIMAL_COMPANION_FEATURE     = "1670990255e4fe948a863bafd5dbda5d"; // Tiergefährte
         public const string ANIMAL_COMPANION_FEATURE_DOG = "f894e003d31461f48a02f5caec4e3359"; // Tiergefährte Hund
 
         // Features by classes
@@ -196,6 +198,16 @@ namespace PF_WotR_Core.Identifier
         public const string ARCANE_TRICKSTER_INVISIBLE_THIEF_FEATURE               = "9a70f4efef9c2964c82cecefdd34292b"; // Unsichtbarer Dieb
         public const string ARCANE_TRICKSTER_SURPRISE_SPELLS                       = "de5cb97a702699841abd3fc66c69fbcf"; // Überraschungszauber
 
+            
+        public const string ARCANIST_CANTRIPS = "5ad7c9fb13ecb52489a89824f0e3db08"; // Zaubertricks
+        public const string ARCANIST_EXPLOIT = "b2c20b73ae2b4e66948acc6637ecde1a"; // Arkanistentricks
+        public const string ARCANIST_EXPLOIT_SELECTION = "b8bf3d5023f2d8c428fdf6438cecaea7"; // Arkanistentricks
+        public const string ARCANIST_GREATER_EXPLOITS_FEATURE = "c7536b93f17c70d4fa3a8cf9aa76bfb7"; // Mächtige Arkanistentricks
+        public const string ARCANIST_MAGICAL_SUPREMACY = "261270d064148224fb982590b7a65414"; // Meister der Magie
+        public const string ARCANIST_ARCANE_RESERVOIR_FEATURE = "9d1e2212594cf47438fff2fa3477b954"; // Arkanes Reservoir
+        
+            
+        
         public const string BARBARIAN_FAST_MOVEMENT                           = "d294a5dddd0120046aae7d4eb6cbc4fc"; // Schnelle Bewegung
         public const string BARBARIAN_RAGE_FEATURE                            = "2479395977cfeeb46b482bc3385f4647"; // Kampfrausch
         public const string BARBARIAN_PROFICIENCIES                           = "acc15a2d19f13864e8cce3ba133a1979"; // Barbaren-Kenntnisse

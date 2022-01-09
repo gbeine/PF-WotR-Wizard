@@ -123,9 +123,9 @@ namespace PF_WotR_Core.JsonTypes
             ComponentsFrom = SelectString(jObject, "ComponentsFrom");
 
             JToken jComponents = jObject.SelectToken("ComponentsArray");
+            ComponentsArray = new List<Component>();
             if (jComponents?.Value<JArray>() != null)
             {
-                ComponentsArray = new List<Component>();
                 foreach (var jComponent in jComponents.Value<JArray>())
                 {
                     ComponentsArray.Add(new Component(jComponent.Value<JObject>()));
@@ -133,9 +133,9 @@ namespace PF_WotR_Core.JsonTypes
             }
 
             JToken jArchetypes = jObject.SelectToken("Archetypes");
+            Archetypes = new List<Archetype>(); 
             if (jArchetypes?.Value<JArray>() != null)
             {
-                Archetypes = new List<Archetype>(); 
                 foreach (var jArchetype in jArchetypes.Value<JArray>())
                 {
                     Archetypes.Add(new Archetype(jArchetype.Value<JObject>()));

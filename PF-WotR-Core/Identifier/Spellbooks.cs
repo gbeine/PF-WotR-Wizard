@@ -7,6 +7,7 @@ namespace PF_WotR_Core.Identifier
         private Spellbooks() { }
 
         public const string ALCHEMIST_SPELLBOOK                                    = "027d37761f3804042afa96fe3e9086cc"; // Alchemist
+        
         public const string BARD_SPELLBOOK                                         = "bc04fc157a8801d41b877ad0d9af03dd"; // Barde
         public const string CLERIC_SPELLBOOK                                       = "4673d19a0cf2fab4f885cc4d1353da33"; // Kleriker
         public const string CLERIC_CRUSADER_SPELLBOOK                              = "673d39f7da699aa408cdda6282e7dcc0"; // Kleriker
